@@ -13,7 +13,7 @@ body {
 
 .container {
     background-color: hsl(0, 0%, 100%);
-    max-width: 32rem;
+    max-width: 40rem;
     margin-top: 7rem;
     margin-bottom: 7rem;
     margin-left: 20px;
@@ -46,23 +46,25 @@ body {
 h1 {
     margin-bottom: 10px;
     color: hsl(24, 5%, 18%);
+    font-size: 2rem;
 }
 
  p {
     font-family: "Outfit", sans-serif;
-    font-size: 12px;
+    font-size: 16px;
+    line-height: 24px;
     color: hsl(30, 10%, 34%);
     margin-bottom: 2.8rem;
 }
 
 li {
     font-family: "Outfit", sans-serif;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 #prep {
     font-family: "Outfit", sans-serif;
-    font-size: 15px;
+    font-size: 19px;
     font-weight: 700;
     color: hsl(332, 51%, 32%);
     margin-left: 1rem;
@@ -134,11 +136,12 @@ h3 {
 }
 
 .nutrition p {
-    font-size: 13px;
+    font-size: 16px;
+    line-height: 3em;
 }
 
 .nutritional-facts {
-    line-height: 3em;
+    line-height: 5em;
     margin-left: 2em;
 
 }
@@ -164,7 +167,7 @@ h3 {
 .attribution {
     text-align: center;
     color: hsl(24, 5%, 18%);
-    margin: auto 30px 30px 30px;
+    margin: 30px 30px 20px 30px;
     font-family: "Outfit", sans-serif;
     font-weight: 600;
  }
@@ -180,20 +183,10 @@ h3 {
  }
 
  @media (max-width:576px) {
-    
-
-    .facts {
-        margin-right: 120px;
-        margin-left: 20px;
-    }
- }
-
- @media (max-width:375px) {
     .container {
         display: block;
         border-radius: 0;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: 0;
 
     }
 
@@ -206,8 +199,34 @@ h3 {
     }
 
     .facts {
+        margin-right: 120px;
+        margin-left: 50px;
+    }
+
+    .header {
+        margin-top: 12rem;
+    }
+ }
+
+ @media (max-width:375px) {
+    .container {
+        display: block;
+        border-radius: 0;
+        margin: 0;
+
+    }
+
+    .omelette {
+        width: 100%;
+        border-radius: 0;
+        top: 4%;
+        margin-bottom: 0;
+        display: block;
+    }
+
+    .facts {
         margin-right: 50px;
-        margin-left: 20px;
+        margin-left: 50px;
     }
 
     .header {
